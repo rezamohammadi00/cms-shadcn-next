@@ -4,9 +4,7 @@ import PostEditForm from "@/components/PostEditForm";
 import Post from "@/types/post";
 
 type PostEditPageProps = {
-  params: {
-    id: string;
-  };
+  params: Promise<{ id: string }>;
 };
 
 const getPosts = async () => {
