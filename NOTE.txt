@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york", //This cannot be changed after initialization. //tab
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "src/app/globals.css", //give right path //editable
+    "baseColor": "neutral", //This cannot be changed after initialization. //tab
+    "cssVariables": true,  //This cannot be changed after initialization. //tab
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "iconLibrary": "lucide"
+}
+
+-------------------------------------------------------------------------------------------------
+you can use (bg-slate-700 & text-white & bg-primary) color formats.
+-------------------------------------------------------------------------------------------------
+npm install react-hook-form @hookform/resolvers zod
+-------------------------------------------------------------------------------------------------
