@@ -4,8 +4,8 @@ import Link from "next/link";
 import {
   LayoutDashboard,
   Newspaper,
-  Folders,
-  CreditCard,
+  Users,
+  // CreditCard,
   Settings,
   User,
 } from "lucide-react";
@@ -43,8 +43,8 @@ const Sidebar = () => {
               <Link href="/posts">پست‌ها</Link>
             </CommandItem>
             <CommandItem>
-              <Folders className="mr-2 h-4 w-4" />
-              <Link href="#">دستبندی‌ها</Link>
+              <Users className="mr-2 h-4 w-4" />
+              <Link href="/users">کاربران</Link>
             </CommandItem>
           </CommandGroup>
           <CommandSeparator />
@@ -54,11 +54,11 @@ const Sidebar = () => {
               <span>پروفایل</span>
               <CommandShortcut>⌘P</CommandShortcut>
             </CommandItem>
-            <CommandItem>
+            {/* <CommandItem>
               <CreditCard className="mr-2 h-4 w-4" />
               <span>صورت حساب</span>
               <CommandShortcut>⌘B</CommandShortcut>
-            </CommandItem>
+            </CommandItem> */}
             <CommandItem>
               <Settings className="mr-2 h-4 w-4" />
               <span>تنظیمات</span>
